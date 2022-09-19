@@ -4,7 +4,7 @@
     
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Inner Monologue</title>
+    <title>NLMap-SayCan</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,21 +12,21 @@
     <!-- <base href="/"> -->
 
         <!--FACEBOOK-->
-    <meta name="og:image" content="https://innermonologue.github.io/img/teaser.png">
-    <meta property="og:image" content="https://innermonologue.github.io/img/teaser.png">
+    <meta name="og:image" content="https://nlmap-saycan.github.io/nl-map_files/teaser.png">
+    <meta property="og:image" content="https://nlmap-saycan.github.io/nl-map_files/teaser.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="900">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://inner-monologue.github.io/">
-    <meta property="og:title" content="Inner Monologue">
-    <meta property="og:description" content="Project page for Inner Monologue: Embodied Reasoning through Planning with Language Models">
+    <meta property="og:url" content="https://nlmap-saycan.github.io/">
+    <meta property="og:title" content="NLMap-SayCan">
+    <meta property="og:description" content="Project page for Open-vocabulary Queryable Scene Representations for Real World Planning">
 
         <!--TWITTER-->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inner Monologue">
-    <meta name="twitter:description" content="Project page for Project page for Inner Monologue: Embodied Reasoning through Planning with Language Models">
-    <meta name="twitter:image" content="https://innermonologue.github.io/img/teaser.png">
+    <meta name="twitter:title" content="NLMap-SayCan">
+    <meta name="twitter:description" content="Project page for Project page for Open-vocabulary Queryable Scene Representations for Real World Planning">
+    <meta name="twitter:image" content="https://nlmap-saycan.github.io/nl-map_files/teaser.png">
 
 
 <!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
@@ -52,7 +52,7 @@
     <div class="container" id="main">
         <div class="row">
             <h2 class="col-md-12 text-center">
-                 <br>Open Vocabulary, Queryable Scene Representations for Real World Planning<br> 
+                 <br>Open-vocabulary Queryable Scene Representations for Real World Planning<br> 
                 
             </h2>
         </div>
@@ -66,33 +66,57 @@
               
                 <br><br>
                     <a href="http://g.co/robotics">
-                    <img src="./nl-map_files/robotics-at-google.png" height="40px"> Robotics at Google</a> <br>
-                    
+                    <img src="./nl-map_files/robotics-at-google.png" height="40px"> Robotics at Google</a> 
+                    <a href="https://everydayrobots.com">
+                    <img src="./nl-map_files/EverydayRobots2.gif" height="40px"> Everyday Robots</a>
                 </ul>
             </div>
         </div>
 
-        
-        
                         
-                        
-                        
-        
 
-        
-
-
-        
-
-
-
-
-        
-
-
-        
+        <div class="col-md-8 col-md-offset-2">
+               
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+Large language models (LLMs) have unlocked new capabilities of task planning from human instructions. However, prior attempts to apply LLMs to real-world robotic tasks are limited by the lack of grounding in the surrounding scene. In this paper, we develop NLMap, an open-vocabulary and queryable scene representation to address this problem. NLMap serves as a framework to gather and integrate contextual information into LLM planners, allowing them to see and query available objects in the scene before generating a context-conditioned plan. NLMap first establishes a natural language queryable scene representation with Visual Language models (VLMs). An LLM based object proposal module parses instructions and proposes involved objects to query the scene representation for object availability and location. An LLM planner then plans with such information about the scene. NLMap allows robots to operate without a fixed list of objects nor executable options, enabling real robot operation unachievable by previous methods.
+                </p>
             
-     
+            </div>
+                        
+                        
+        
+
+    <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Video
+                </h3>
+                <div class="text-center">
+                    <div style="position:relative;padding-top:56.25%;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q9CvvArq4ZA" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly="" style="display: none;">@inproceedings{chen2022nlmapsaycan,
+    title={Open-vocabulary Queryable Scene Representations for Real World Planning},
+    author={Boyuan Chen and Fei Xia and Brian Ichter and Kanishka Rao and Keerthana Gopalakrishnan and Michael S. Ryoo and Austin Stone and Daniel Kappler
+    booktitle={arXiv preprint arXiv:2209.???},
+    year={2022}
+}</textarea>
+            </div>
+     </div>
+
+        
 
      
 
