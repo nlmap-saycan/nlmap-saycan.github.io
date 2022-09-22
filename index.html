@@ -171,28 +171,6 @@
       </div>
 
       <div class="col-md-8 col-md-offset-2">
-        <h3>Method</h3>
-        <p class="text-justify">
-          We first let the robot explore the scene and gather observations. A
-          class-agnostic region proposal network proposes region of interest and
-          encode them into Visual Language Model embeddings. The embeddings and
-          object bounding boxes are aggregated by a multi-view fusion algorithm
-          to create a representation that will be later queried with natural
-          language inputs.
-        </p>
-        <img src="./figures/method_1.png" width="100%" />
-        <p class="text-justify">
-          When human gives an instruction, a large language model parses the
-          instruction into a list of related objects. We then query the scene
-          representation for availability and locations of these objects.
-          Executable options are generated based on what’s found. Finally, the
-          robot plan and accomplishes the task based on the instruction and the
-          found objects.
-        </p>
-        <img src="./figures/method_2.png" width="100%" />
-      </div>
-
-      <div class="col-md-8 col-md-offset-2">
         <h3>NLMap + SayCan</h3>
         <p class="text-justify">
           NLMap can be combined with LLM planners to significantly augment the
@@ -219,6 +197,28 @@
             the task "Water the plant".
           </small>
         </p>
+      </div>
+   
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Method</h3>
+        <p class="text-justify">
+          We first let the robot explore the scene and gather observations. A
+          class-agnostic region proposal network proposes region of interest and
+          encode them into Visual Language Model embeddings. The embeddings and
+          object bounding boxes are aggregated by a multi-view fusion algorithm
+          to create a representation that will be later queried with natural
+          language inputs.
+        </p>
+        <img src="./figures/method_1.png" width="100%" />
+        <p class="text-justify">
+          When human gives an instruction, a large language model parses the
+          instruction into a list of related objects. We then query the scene
+          representation for availability and locations of these objects.
+          Executable options are generated based on what’s found. Finally, the
+          robot plan and accomplishes the task based on the instruction and the
+          found objects.
+        </p>
+        <img src="./figures/method_2.png" width="100%" />
       </div>
 
       <div class="col-md-8 col-md-offset-2">
